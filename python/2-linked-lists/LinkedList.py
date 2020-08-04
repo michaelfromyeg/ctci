@@ -23,8 +23,9 @@ class LinkedList:
     while node is not None:
       nodes.append(node.data)
       node = node.next
-    nodes.append("None")
-    return " -> ".join(nodes)
+    nodes.append('None')
+    values = ' -> '.join(str(n) for n in nodes)
+    return values
   
 class Node:
   def __init__(self, data):

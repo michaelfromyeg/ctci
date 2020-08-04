@@ -72,4 +72,4 @@ An example where you weave lists together: `a_1 -> a_2 -> ... -> a_n -> b_1 -> b
 
 ## Recursion
 
-If you're stuck, try recursion.
+If you're stuck, try recursion. Remember, recursion takes at least O(n) space, iterative may be cheaper.
