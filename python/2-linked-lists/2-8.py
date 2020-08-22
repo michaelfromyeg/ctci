@@ -3,5 +3,6 @@
 
 from LinkedList import LinkedList, Node
 
+
 def find_loop(l: LinkedList) -> Node:
     raise NotImplementedError

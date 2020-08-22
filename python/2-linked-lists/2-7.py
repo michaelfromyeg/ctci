@@ -2,5 +2,6 @@
 
 from LinkedList import LinkedList, Node
 
+
 def intersection(a: LinkedList, b: LinkedList) -> Node:
     raise NotImplementedError
